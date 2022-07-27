@@ -1,3 +1,10 @@
+## Startup Guide
+1: Clone the project to vs code or any code editor of your choice.
+2: Make sure you have nodeJs installed in your computer.
+3. Open terminal -> change directory to project folder -> run the following command to install npm packages and node modules: "npm install --legacy-peer-deps"
+to make sure the modules to be installed are of the same version as of the project.
+4: Run the command: "npm start" to run the project of local host.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
