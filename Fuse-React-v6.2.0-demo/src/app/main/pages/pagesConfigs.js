@@ -11,6 +11,7 @@ import RegisterPageConfig from './auth/register/RegisterPageConfig';
 import ResetPassword2PageConfig from './auth/reset-password-2/ResetPassword2PageConfig';
 import ResetPasswordPageConfig from './auth/reset-password/ResetPasswordPageConfig';
 import ComingSoonPageConfig from './coming-soon/ComingSoonPageConfig';
+import CustomerPageConfig from './Customers/CustomerPageConfig';
 import Error404PageConfig from './errors/404/Error404PageConfig';
 import Error500PageConfig from './errors/500/Error500PageConfig';
 import FaqPageConfig from './faq/FaqPageConfig';
@@ -26,32 +27,33 @@ import ClassicSearchPageConfig from './search/classic/ClassicSearchPageConfig';
 import ModernSearchPageConfig from './search/modern/ModernSearchPageConfig';
 
 const pagesConfigs = [
-  LoginPageConfig,
-  RegisterPageConfig,
-  ResetPasswordPageConfig,
-  ForgotPasswordPageConfig,
-  MailConfirmPageConfig,
-  LockPageConfig,
-  Login2PageConfig,
-  Login3PageConfig,
-  Register2PageConfig,
-  Register3PageConfig,
-  ForgotPassword2PageConfig,
-  ResetPassword2PageConfig,
-  ComingSoonPageConfig,
-  Error404PageConfig,
-  Error500PageConfig,
-  MaintenancePageConfig,
-  ModernInvoicePageConfig,
-  CompactInvoicePageConfig,
-  PricingStyle1PageConfig,
-  PricingStyle2PageConfig,
-  PricingStyle3PageConfig,
-  ProfilePageConfig,
-  ClassicSearchPageConfig,
-  ModernSearchPageConfig,
-  FaqPageConfig,
-  KnowledgeBasePageConfig,
+    LoginPageConfig,
+    RegisterPageConfig,
+    ResetPasswordPageConfig,
+    ForgotPasswordPageConfig,
+    MailConfirmPageConfig,
+    LockPageConfig,
+    Login2PageConfig,
+    Login3PageConfig,
+    Register2PageConfig,
+    Register3PageConfig,
+    ForgotPassword2PageConfig,
+    ResetPassword2PageConfig,
+    ComingSoonPageConfig,
+    Error404PageConfig,
+    Error500PageConfig,
+    MaintenancePageConfig,
+    ModernInvoicePageConfig,
+    CompactInvoicePageConfig,
+    PricingStyle1PageConfig,
+    PricingStyle2PageConfig,
+    PricingStyle3PageConfig,
+    ProfilePageConfig,
+    ClassicSearchPageConfig,
+    ModernSearchPageConfig,
+    FaqPageConfig,
+    KnowledgeBasePageConfig,
+    CustomerPageConfig
 ];
 
 export default pagesConfigs;

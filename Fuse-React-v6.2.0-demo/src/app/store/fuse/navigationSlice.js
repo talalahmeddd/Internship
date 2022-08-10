@@ -11,6 +11,7 @@ const initialState = navigationAdapter.upsertMany(emptyInitialState, navigationC
 export const appendNavigationItem = (item, parentId) => (dispatch, getState) => {
   const navigation = selectNavigationAll(getState());
 
+
   return dispatch(setNavigation(FuseUtils.appendNavItem(navigation, item, parentId)));
 };
 
